@@ -1,7 +1,7 @@
 from tools import *
 
 def preprocess_data():
-    data = pd.read_csv('credit.csv')
+    data = pd.read_csv(DATA_PATH)
     assert TARGET_COL in data.columns, f"Target column '{TARGET_COL}' not found in data"
 
     X = data.drop(TARGET_COL, axis=1)
