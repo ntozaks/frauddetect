@@ -2,6 +2,7 @@ import time
 import os
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from collections import deque
 import random
 import psutil
@@ -18,6 +19,7 @@ from sklearn.metrics import (
     average_precision_score,
     confusion_matrix,
     classification_report,
+    ConfusionMatrixDisplay
 )
 from sklearn.pipeline import make_pipeline
 
