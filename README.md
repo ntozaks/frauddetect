@@ -14,9 +14,9 @@ Running directly from the pipeline folder,
 ```python
 python3 classifier.py
 ```
-Running Q-LSTM individually from pipeline folder,
+Running Q-LSTM individually from the pipeline folder,
 ```python
 python dqn.py
 ```
 
-Q-deep learning can be tweaked in the *pipeline/dqn.py* file and the hyperparameters can be tweaked in the *tools.py* file.
+Q-deep learning can be modified in the *pipeline/dqn.py* file and the hyperparameters can be tweaked in the *tools.py* file.
